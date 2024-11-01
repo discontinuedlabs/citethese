@@ -1,0 +1,26 @@
+{
+    "name": "citethis",
+    "version": "1.0.0",
+    "description": "citethis is a CLI tool that generates formatted citations (references) based on various unique identifiers, including URL, DOI, ISBN, PMID, and PMCID.",
+    "main": "index.js",
+    "private": false,
+    "bin": "./bin/index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/discontinuedlabs/citethis.git"
+    },
+    "author": "discontinuedlabs",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/discontinuedlabs/citethis/issues"
+    },
+    "homepage": "https://github.com/discontinuedlabs/citethis#readme",
+    "dependencies": {
+        "@citation-js/core": "^0.7.14",
+        "@citation-js/plugin-csl": "^0.7.14"
+    }
+}
